@@ -136,50 +136,7 @@ body {
     background-color: tan;
 }
 
-/* On screens that are 992px or less, set the background color to blue
-@media screen and (max-width: 992px) {
-    body {
-        background-color: blue;
-    }
-    .leftContainer {
-        margin: 20px;
-    }
 
-    .container {
-        display: inline-block;
-
-    }
-
-    .content {
-        display: block;
-    }
-
-    .bill {
-        margin-left: 0px;
-    }
-
-    .imageDiv {
-        margin: 0px;
-    }
-
-    .pay {
-        margin: 50px 0px;
-    }
-
-    .payment:before {
-        top: -34px;
-    }
-
-    .salary {
-        margin: 15px 0px;
-    }
-   
-    .RightContainer {
-        padding: 50px 0px;
-    }
-} */
-
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
     body {
         background-color: #a9a9a9;
