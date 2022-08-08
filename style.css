@@ -175,24 +175,10 @@ body {
         margin: 15px 0px;
     }
     .imageDiv > p{
-        position: absolute;
-        top: 0;
-        right: 100px;
-        background-color: #263e2a;
-        color: #fff;
-        padding: 5px 20px;
-        margin: 10px;
-        border-radius: 30px;
-        cursor: pointer;
+        right: 15px;
     
     }
     .RightContainer {
         padding: 50px 0px;
-        flex: 4;
-        background-color: #bcc4bc;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 }
