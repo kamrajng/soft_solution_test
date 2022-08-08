@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.leftContainer {
+    flex: 8;
+    margin: 50px;
+}
+
+.bill {
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.imageDiv {
+    position: relative;
+    margin: 20px;
+}
+
+.imageDiv>img {
+    border-radius: 20px;
+    position: relative;
+}
+
+.imageDiv>p {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color: #263e2a;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.textDiv {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.textWrap {
+    word-wrap: inherit;
+    width: 300px;
+}
+
+.midP {
+    font-size: 26px;
+}
+
+.smallP {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.amount {
+    font-weight: 900;
+}
+
+.RightContainer {
+    padding: 50px;
+    flex: 4;
+    background-color: #bcc4bc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #2623cc;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.largeP {
+    font-size: 30px;
+}
+
+.payH1 {
+    font-weight: 900;
+    margin: 15px;
+}
+
+.payBP {
+    color: #a9a9a9;
+    font-size: 20px;
+}
+
+.payment {
+    background: #7472ff;
+    display: inline-block;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 55px;
+    position: relative;
+    width: 300px;
+    border-radius: 30px 30px 40px 40px;
+    padding-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.payment:before {
+    border-bottom: 35px solid #7472ff;
+    border-left: 130px solid transparent;
+    border-right: 135px solid transparent;
+    content: "";
+    height: 4;
+    left: 17px;
+    position: absolute;
+    top: -35px;
+    width: 0;
+}
+
+.payment>p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+body {
+    background-color: tan;
+}
+
+/* On screens that are 992px or less, set the background color to blue
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+    .leftContainer {
+        margin: 20px;
+    }
+
+    .container {
+        display: inline-block;
+
+    }
+
+    .content {
+        display: block;
+    }
+
+    .bill {
+        margin-left: 0px;
+    }
+
+    .imageDiv {
+        margin: 0px;
+    }
+
+    .pay {
+        margin: 50px 0px;
+    }
+
+    .payment:before {
+        top: -34px;
+    }
+
+    .salary {
+        margin: 15px 0px;
+    }
+   
+    .RightContainer {
+        padding: 50px 0px;
+    }
+} */
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #a9a9a9;
+    }
+
+    .leftContainer {
+        margin: 20px;
+    }
+
+    .container {
+        display: inline-block;
+
+    }
+
+    .content {
+        display: block;
+    }
+
+    .bill {
+        margin-left: 0px;
+    }
+
+    .imageDiv {
+        margin: 0px;
+    }
+
+    .pay {
+        margin: 50px 0px;
+    }
+
+    .payment:before {
+        top: -34px;
+    }
+
+    .salary {
+        margin: 15px 0px;
+    }
+    .imageDiv > p{
+        position: absolute;
+        top: 0;
+        right: 100px;
+        background-color: #263e2a;
+        color: #fff;
+        padding: 5px 20px;
+        margin: 10px;
+        border-radius: 30px;
+        cursor: pointer;
+    
+    }
+    .RightContainer {
+        padding: 50px 0px;
+        flex: 4;
+        background-color: #bcc4bc;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
